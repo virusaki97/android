@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:theme="@style/AppTheme"
+    tools:context=".activity_welcome"
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="269dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:letterSpacing="0.05"
+        android:lineSpacingExtra="-18.5sp"
+        android:text="@string/welcome_title"
+        android:textAlignment="gravity"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.57"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.241" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="338dp"
+        android:layout_height="81dp"
+        android:gravity="center"
+        android:text="@string/welcome_msg"
+        android:textAlignment="gravity"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.616"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.378" />
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="302dp"
+        android:layout_height="63dp"
+        android:background="@drawable/btn_white"
+        android:text="@string/btn_signup_text"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.605"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.63"
+        android:onClick="btnSignupClick"
+        />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="302dp"
+        android:layout_height="63dp"
+        android:background="@drawable/btn_transparent"
+        android:text="@string/btn_login_text"
+        android:onClick="btnLoginClickWelcome"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.605"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.81" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

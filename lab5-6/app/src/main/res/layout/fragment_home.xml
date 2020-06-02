@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment_home">
+
+    <EditText
+        android:id="@+id/fh_name"
+        android:layout_width="362dp"
+        android:layout_height="54dp"
+        android:background="@drawable/inputbox_rounded"
+        android:drawableStart="@drawable/inputbox_rounded"
+        android:ems="10"
+        android:hint="@string/hint_fullname"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.152" />
+
+    <TextView
+        style="@style/inputbox_title"
+        android:layout_width="116dp"
+        android:layout_height="35dp"
+        android:text="@string/full_name"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075" />
+
+    <TextView
+        android:id="@+id/textView10"
+        style="@style/inputbox_title"
+        android:layout_width="220dp"
+        android:layout_height="34dp"
+        android:text="@string/description"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.627" />
+
+    <EditText
+        android:id="@+id/fh_address"
+        android:layout_width="362dp"
+        android:layout_height="54dp"
+        android:background="@drawable/inputbox_rounded"
+        android:drawableStart="@drawable/inputbox_rounded"
+        android:ems="10"
+        android:hint="@string/hint_location"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.535" />
+
+    <TextView
+        android:id="@+id/textView9"
+        style="@style/inputbox_title"
+        android:layout_width="188dp"
+        android:layout_height="41dp"
+        android:text="@string/location"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.448" />
+
+    <EditText
+        android:id="@+id/fh_disease"
+        android:layout_width="362dp"
+        android:layout_height="54dp"
+        android:background="@drawable/inputbox_rounded"
+        android:drawableStart="@drawable/inputbox_rounded"
+        android:ems="10"
+        android:hint="@string/hint_disease"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.343" />
+
+    <EditText
+        android:id="@+id/fh_description"
+        android:layout_width="361dp"
+        android:layout_height="97dp"
+        android:background="@drawable/inputbox_rounded"
+        android:drawableStart="@drawable/inputbox_rounded"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="@string/hint_description"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.798" />
+
+    <TextView
+        android:id="@+id/textView8"
+        style="@style/inputbox_title"
+        android:layout_width="116dp"
+        android:layout_height="35dp"
+        android:text="@string/disease"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.262" />
+
+    <Button
+        android:id="@+id/fh_btn_request"
+        android:layout_width="302dp"
+        android:layout_height="49dp"
+        android:background="@drawable/btn_green"
+        android:text="@string/btn_request"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.947" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

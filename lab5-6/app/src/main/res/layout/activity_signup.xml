@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_signup"
+    tools:actionBarNavMode="standard"
+    android:theme="@style/AppTheme">
+
+    <EditText
+        android:id="@+id/signup_password"
+        android:layout_width="355dp"
+        android:layout_height="39dp"
+        android:background="@drawable/inputbox_rounded"
+        android:drawableStart="@drawable/inputbox_rounded"
+        android:ems="10"
+        android:hint="@string/hint_password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.879" />
+
+    <TextView
+        android:id="@+id/textView7"
+        style="@style/inputbox_title"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:text="@string/password"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.817" />
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        />
+
+    <ImageView
+        android:id="@+id/addphotos"
+        android:onClick="addphotosclick"
+        android:layout_width="166dp"
+        android:layout_height="108dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.101"
+        app:srcCompat="@drawable/addphotos" />
+
+    <TextView
+        style="@style/inputbox_title"
+        android:layout_width="111dp"
+        android:layout_height="23dp"
+        android:text="@string/full_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.238" />
+
+    <EditText
+        android:id="@+id/signup_phone"
+        android:layout_width="355dp"
+        android:layout_height="39dp"
+        android:background="@drawable/inputbox_rounded"
+        android:drawableStart="@drawable/inputbox_rounded"
+        android:ems="10"
+        android:hint="@string/hint_phone_number"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.653" />
+
+    <EditText
+        android:id="@+id/signup_birthday"
+        android:layout_width="355dp"
+        android:layout_height="39dp"
+        android:background="@drawable/inputbox_rounded"
+        android:drawableStart="@drawable/inputbox_rounded"
+        android:ems="10"
+        android:hint="@string/hint_birthday"
+        android:importantForAutofill="no"
+        android:inputType="date"
+        android:padding="10dp"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.411" />
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/inputbox_title"
+        android:layout_width="111dp"
+        android:layout_height="23dp"
+        android:text="@string/email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.481" />
+
+    <TextView
+        android:id="@+id/textView6"
+        style="@style/inputbox_title"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:text="@string/location"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.712" />
+
+    <EditText
+        android:id="@+id/signup_address"
+        android:layout_width="355dp"
+        android:layout_height="39dp"
+        android:background="@drawable/inputbox_rounded"
+        android:drawableStart="@drawable/inputbox_rounded"
+        android:ems="10"
+        android:hint="@string/hint_location"
+        android:importantForAutofill="no"
+        android:inputType="textPostalAddress"
+        android:padding="10dp"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.77" />
+
+    <EditText
+        android:id="@+id/signup_email"
+        android:layout_width="355dp"
+        android:layout_height="39dp"
+        android:background="@drawable/inputbox_rounded"
+        android:drawableStart="@drawable/inputbox_rounded"
+        android:ems="10"
+        android:hint="@string/hint_email"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.533" />
+
+    <EditText
+        android:id="@+id/signup_name"
+        android:layout_width="355dp"
+        android:layout_height="39dp"
+        android:background="@drawable/inputbox_rounded"
+        android:drawableStart="@drawable/inputbox_rounded"
+        android:ems="10"
+        android:hint="@string/hint_fullname"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.285" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/inputbox_title"
+        android:layout_width="111dp"
+        android:layout_height="23dp"
+        android:text="@string/birthday"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.361" />
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@style/inputbox_title"
+        android:layout_width="111dp"
+        android:layout_height="23dp"
+        android:text="@string/phone_number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.595" />
+
+    <Button
+        android:onClick="btnSignupComplete"
+        android:layout_width="302dp"
+        android:layout_height="49dp"
+        android:background="@drawable/btn_green"
+        android:text="@string/btn_next_text"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.596"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.973" />
+</androidx.constraintlayout.widget.ConstraintLayout>

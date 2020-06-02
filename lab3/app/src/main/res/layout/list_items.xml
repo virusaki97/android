@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:shrinkColumns="0"
+    android:background="#07000000"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textViewCount"
+            android:layout_width="51dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0"
+            android:text="100"
+            android:textColor="@android:color/black"
+            android:textSize="8pt" />
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0"
+            android:text="Bitcoin Cash"
+            android:textColor="@android:color/black"
+            android:textSize="8pt" />
+
+        <TextView
+            android:id="@+id/textViewSymbol"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="BTCHZ"
+            android:textColor="@android:color/black"
+            android:textSize="8pt" />
+
+        <TextView
+            android:id="@+id/textViewPrice"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="$10,000.34"
+            android:textColor="@android:color/black"
+            android:textSize="8pt" />
+    </TableRow>
+</TableLayout>

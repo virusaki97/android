@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">lab5</string>
+    <string name="empty"> </string>
+    <string name="splash_title">Telemedicine</string>
+    <string name="welcome_title">Welcome</string>
+    <string name="welcome_msg">This is the application Telemedicine. To proceed next you have to login or register a new account below.</string>
+    <string name="btn_signup_text">Sign Up</string>
+    <string name="btn_login_text">Log In</string>
+    <string name="register_toolbar_title">Register</string>
+    <string name="full_name">Full Name</string>
+    <string name="birthday">Birthday</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="location">Location/Address</string>
+    <string name="hint_fullname">Your Full Name</string>
+    <string name="hint_birthday">yyyy/MM/dd</string>
+    <string name="hint_email">Your Email</string>
+    <string name="hint_phone_number">Your Phone Number</string>
+    <string name="hint_location">Your Location</string>
+    <string name="btn_next_text">Next</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="hint_password">Enter a password</string>
+    <string name="home">Home</string>
+    <string name="notification">Notification</string>
+    <string name="schedule">Schedule</string>
+    <string name="profile">Profile</string>
+    <string name="disease">Disease</string>
+    <string name="hint_disease">Your Disease</string>
+    <string name="description">Description (Optional)</string>
+    <string name="hint_description">Your description here</string>
+    <string name="btn_request">Request</string>
+    <string name="your_request_approved">Your request has been approved.</string>
+    <string name="request_details">Request Details</string>
+    <string name="name">Name</string>
+    <string name="doctor">Doctor</string>
+    <string name="shortdescription">Short Description</string>
+    <string name="specialization">Specialization</string>
+    <string name="points">pt</string>
+    <string name="username">Username</string>
+    <string name="doctorlist">Doctor List</string>
+    <string name="doctordetails">Doctor Details</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
